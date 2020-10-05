@@ -123,7 +123,7 @@ class RabbitMQ
             $config['basic_consume']['no-ack'],
             $config['basic_consume']['exclusive'],
             $config['basic_consume']['no-wait'],
-            $config['_callback']
+            $config['callback']
         );
     }
 
